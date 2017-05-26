@@ -1187,8 +1187,6 @@ int main(int argc, char **argv)
     exit(0);
   }
 
-  std::ifstream inputFile(input.c_str());
-
   std::istream_iterator<Point> begin(inputFile);
   std::istream_iterator<Point> end;
 
@@ -1225,8 +1223,6 @@ int main(int argc, char **argv)
   glutInitDisplayMode(GLUT_SINGLE | GLUT_RGBA);
   float w = glutGet(GLUT_WINDOW_WIDTH);
   float h = glutGet(GLUT_WINDOW_HEIGHT);
-  std::cout << w << " " << h << std::endl;
-  //glutInitWindowSize(h, h);
   window = glutCreateWindow("Hole Detection");
   glutReshapeFunc(reshape);
   glutKeyboardFunc(key);
