@@ -1,3 +1,4 @@
+echo "Press  Esc key to view the next output"
 ./HoleDetection --in Fig1c --p 0.75
 ./HoleDetection --in Fig2c --p 0.9
 ./HoleDetection --in Fig2d --p 0.7
