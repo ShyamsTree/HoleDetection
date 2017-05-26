@@ -1,11 +1,10 @@
 project(HoleDetection)
 
-cmake_minimum_required (VERSION 2.6)
+cmake_minimum_required (VERSION 2.8)
 
 find_package(CGAL QUIET COMPONENTS Core )
 include( ${CGAL_USE_FILE} )
-
-  include_directories (BEFORE "../../include")
+include_directories (BEFORE "../../include")
 
 find_package(OpenGL REQUIRED)
 include_directories(${OPENGL_INCLUDE_DIR})
