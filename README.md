@@ -25,23 +25,7 @@ REQUIREMENTS:
 - CGAL                   (required; C++ library, http://www.cgal.org/).
 - OpenGL and GLUT        (required; for visualization).
 
-All necessary packages can be obtained through Ubuntu's package system via apt-get:
-
-sudo apt-get update
-
-sudo apt-get install build-essential
-
-sudo apt-get install cmake
-
-sudo apt-get install libboost-dev
-
-sudo apt-get install libglu1-mesa
-
-sudo apt-get install libxmu-dev libxi-dev
-
-sudo apt-get install freeglut3 freeglut3-dev
-
-sudo apt-get install libcgal-dev
+All necessary packages can be obtained through Ubuntu's package system via apt-get.
 
 All the packages can be installed using the "install.sh" script provided. The script also compiles the program.
 
