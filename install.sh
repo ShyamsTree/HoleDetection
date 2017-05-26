@@ -22,10 +22,6 @@ sudo apt-get install libgmp3-dev #install GMP
 echo "Setting up MPFR..."
 sudo apt-get install libmpfr-dev #install MPFR
 
-echo "Setting up QT4..."
-sudo apt-get install qt4-default #install QT4
-sudo apt-get install qtdeclarative4-dev
-
 echo "Installing CGAL"
 wget https://github.com/CGAL/cgal/releases/download/releases%2FCGAL-4.6.3/CGAL-4.6.3.tar.xz
 tar -xf CGAL-4.6.3.tar.xz
