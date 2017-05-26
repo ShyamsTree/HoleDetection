@@ -79,6 +79,7 @@ x_1 y_1 z_1
 
 x_{n-1} y_{n-1} z_{n-1}
 
+
 Input file example :
 
 300 300 1
@@ -96,7 +97,9 @@ Input file example :
 1000 1000 1
 
 
+
 See the input files in "data" folder for samples.
+
 
 Output:
 
