@@ -61,6 +61,7 @@ The input point set can be either a dot pattern or a boundary sample.
 Input file format:
 
 x_0 y_0 z_0
+
 x_1 y_1 z_1
 ...
 x_{n-1} y_{n-1} z_{n-1}
