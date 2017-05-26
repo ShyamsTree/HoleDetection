@@ -14,6 +14,7 @@ the Free Software Foundation, either version 3 of the License, or
 DESCRIPTION:
 
 HoleDetection is a program for computing the hole boundaries of an outer boundary reconstructed Delaunay Triangulation using the hole detection algorithm proposed in "Hole Detection of a Planar Point Set: An Empty Disk Approach" by Subhasree Methirumangalath, Shyam Sundar Kannan, Amal Dev Parakkat, and Ramanathan Muthuganapathy to appear at the Shape Modeling International (SMI-2017), with the outer boundary reconstructed using a Delaunay Triangulation method described in "A unified approach towards reconstruction of a planar point set" by Subhasree Methirumangalath, Amal Dev Parakkat and Ramanathan Muthuganapathy.
+
 --------------------------------------------------------------------------------
 
 REQUIREMENTS:
@@ -25,13 +26,21 @@ REQUIREMENTS:
 - OpenGL and GLUT        (required; for visualization).
 
 All necessary packages can be obtained through Ubuntu's package system via apt-get:
+
 sudo apt-get update
+
 sudo apt-get install build-essential
+
 sudo apt-get install cmake
+
 sudo apt-get install libboost-dev
+
 sudo apt-get install libglu1-mesa
+
 sudo apt-get install libxmu-dev libxi-dev
+
 sudo apt-get install freeglut3 freeglut3-dev
+
 sudo apt-get install libcgal-dev
 
 All the packages can be installed using the "install.sh" script provided. The script also compiles the program.
@@ -63,17 +72,25 @@ Input file format:
 x_0 y_0 z_0
 
 x_1 y_1 z_1
+
 ...
+
 x_{n-1} y_{n-1} z_{n-1}
 
 Input file example :
 
 300 300 1
+
 900 300 1
+
 600 900 1
+
 .
+
 .
+
 .
+
 1000 1000 1
 
 
