@@ -54,7 +54,9 @@ Run format:
 ./HoleDetection --in <filename> [--p <outer boundary parameter>]
 
 Description:
+
   --in - the input file name (.xyz extension is not needed) (required)
+  
   --p  - the parameter for outer boundary detection (between 0 to 1) (optional)
 
 Ex.
