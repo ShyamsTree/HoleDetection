@@ -1167,7 +1167,6 @@ int main(int argc, char **argv)
       if (std::string(argv[i]) == "--in")
       {
         input = "data/" + std::string(argv[i + 1]) + ".xyz";
-        std::cout << input << std::endl;
         i++;
       }
       else if (std::string(argv[i]) == "--p")
@@ -1186,7 +1185,9 @@ int main(int argc, char **argv)
     std::cout << "Invalid Input.." << std::endl;
     exit(0);
   }
-
+	
+	
+  std::ifstream inputFile(input.c_str());
   std::istream_iterator<Point> begin(inputFile);
   std::istream_iterator<Point> end;
 
