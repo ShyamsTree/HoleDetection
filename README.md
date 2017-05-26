@@ -51,7 +51,7 @@ USAGE:
 
 Run format:
 
-./HoleDetection --in <filename> [--p <outer boundary parameter>]
+./HoleDetection --in filename [--p outer_boundary_parameter]
 
 Description:
 
