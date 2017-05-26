@@ -60,6 +60,7 @@ Description:
   --p  - the parameter for outer boundary detection (between 0 to 1) (optional)
 
 Ex.
+
 ./HoleDetection --in sampleInput --p 0.7
 
 
@@ -104,6 +105,11 @@ See the input files in "data" folder for samples.
 Output:
 
 By default, the output will be shown in an OpenGL window.
+
+
+Replicating Results:
+
+To replicate the results shown in the paper, use the script "run_all.sh". The script uses the input point sets from "data" folder.
 
 --------------------------------------------------------------------------------
 
